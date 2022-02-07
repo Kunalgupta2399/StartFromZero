@@ -8,3 +8,4 @@ public class SelectionSortRunner {
         System.out.println(Arrays.toString(array));
     }
 }
+
