@@ -11,9 +11,12 @@ public class main {
         number.insert(40);
         number.insert(50);
         number.insert(60);
+        number.insert(70);
+        number.insert(80);
+        number.insert(90);
 
-        System.out.println(number.indexOf(100));
-        number.removeAt(3);
+//        System.out.println(number.indexOf(100));
+//        number.removeAt(3);
         number.print();
     }
 }
