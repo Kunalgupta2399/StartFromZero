@@ -17,12 +17,13 @@ public class FindIndex {
         System.out.println("enter you element to find its index");
         int element = scanner.nextInt();
 
+        int index = -1;
         for (int i = 0; i < a.length; i++) {
             if (element == a[i]){
-                System.out.println(i);
-                return;
+               index = i;
+                break;
             }
         }
-        System.out.println(-1);
+        System.out.println(index);
     }
 }
